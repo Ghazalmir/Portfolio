@@ -1,0 +1,90 @@
+.hello{
+  height: 40rem;
+  background-color: var(--bg-grey);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.hello p{
+  color: var(--white);
+  align-self: flex-start;
+  padding: 0 40px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.Ghazal{
+  font-size: xxx-large;
+  margin-bottom: 5px;
+  color: var(--blue);
+}
+
+
+.hello p > .student{
+  margin-top: 0;
+  font-size:large;
+}
+
+.hello img {
+  height: 100%;
+  width: auto;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+@media (max-width: 900px) {
+  .hello {
+    flex-direction: column;
+  }
+  .hello img {
+    order: 3;
+    height: 70%;
+    width: auto;
+    margin: auto;
+    margin-top: 20px ;
+    overflow: hidden;
+  }
+  #about{
+    order: 1;
+  }
+  .hello p{
+  
+    order: 2;
+  }
+}
+
+.findMeIcons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+.findMeIcons img{
+  height: 50px;
+  width: auto;
+  margin-bottom: 0;
+
+}
+.skill {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.2s ease-in;
+}
+
+.skill span {
+  font-size:x-small;
+  margin-left: 10px;
+}
+
+.skill:hover {
+  transform:scale(1.15);
+  font-size:small;
+
+}
+

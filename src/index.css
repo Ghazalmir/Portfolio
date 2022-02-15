@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-white) !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root{
+  --white: rgb(211, 219, 223);
+  --bg-grey: rgb(56, 63, 68);
+  --bg-black: rgb(33, 37, 41);
+  --white-hover: aliceblue;
+  --text-mute: rgb(93, 93, 94);
+  --bg-white: #e0e0e0;
+
+  --green: rgb(124, 192, 118);
+  --purple: rgb(171,136,243);
+  --red: rgb(201, 76, 105);
+  --blue: rgb(96, 153, 233);
+  --yellow: rgb(196, 153, 24);
+
+  --green-dark: rgb(103, 179, 97);
+  --purple-dark: rgb(146, 99, 238);
+  --blue-dark: rgb(57, 125, 219);
+
+  
 }

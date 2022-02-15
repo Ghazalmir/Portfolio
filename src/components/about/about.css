@@ -1,0 +1,24 @@
+#About{
+  background-color: var(--bg-grey) !important;
+  color: var(--white);
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+ #express{
+  background-color: white !important;
+}
+
+#sql {
+  height: 50px;
+  width: auto;
+}
+
+#css {
+  height: 55px;
+}
+#bootstrap, #mongo {
+  height: 55px;
+
+}
+

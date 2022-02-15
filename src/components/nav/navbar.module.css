@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.link {
+  margin-right: 0;
+  text-decoration: none;
+  position: relative;
+
+}
+.Links {
+  justify-content: flex-end;
+}
+
+.link img {
+  height: 27px;
+  width: auto;
+  margin-left: 0;
+}
+
+.link:hover {
+  color: var(--white-hover) !important;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--blue);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: var(--purple);
+}
+
+.linkedin, .github {
+  position: relative;
+}
+
+.hoverImg {
+  position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+}
+.hoverImg:hover {
+  opacity: 1;
+
+}
+
+@media (max-width: 768px) {
+  .link:after {
+    width: 15%;
+
+  }
+
+}
+
+
+

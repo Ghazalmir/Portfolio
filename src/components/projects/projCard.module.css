@@ -1,0 +1,136 @@
+#Projects{
+  color: var(--bg-black);
+  display: flex;
+  
+}
+
+.header {
+  font-size:xx-large;
+  color: var(--blue-dark);
+  margin-top: 7rem;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: var(--bg-white);
+
+}
+.header p {
+  font-size:large;
+  margin: 5px 30px;
+  color: var(--bg-black);
+
+}
+
+.projects{
+  display: flex ;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  
+}
+
+
+.card{
+  width: 45%;
+  height: auto;
+  margin: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  box-shadow:  8px 8px 16px #b3b3b3,
+  -8px -8px 16px #ffffff;  border-radius: 30px;
+  padding: 30px;
+  text-align: left;
+  /* border: solid 1px var(--purple); */
+}
+.card {
+  transition: 0.25s ease-in;
+}
+.card:hover {
+  
+box-shadow:  15px 15px 21px #aaaaaa,
+-15px -15px 21px #ffffff;
+  transform:scale(1.015) !important;
+}
+
+.description {
+  font-size: large;
+}
+.name {
+  font-size:xx-large;
+  color: var(--blue-dark);
+  line-height: 2rem;
+  margin: 6px 0;
+}
+.tags{
+  word-break: keep-all;
+  margin: 7px 0;
+
+}
+.tags span{
+  font-size: medium;
+  border: 2px solid var(--yellow);
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: var(--bg-black);
+  border-radius: 30px;
+  margin-top: 7px;
+
+  display: inline-block;
+
+}
+.pic{
+  height: 100%;
+  
+}
+
+.date {
+  margin-bottom: 10px;
+  font-size: large;
+  color: var(--purple-dark);
+}
+.where {
+  color: var(--green-dark);
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.btns> button {
+  margin-top: 10px;
+  background-color: inherit;
+  color:  var(--white);
+  box-shadow:  8px 8px 10px #b3b3b3,
+  -8px -8px 10px #ffffff;  
+  border-radius: 30px;
+  border:none;
+  padding: 12px;
+  align-self: flex-end;
+  cursor: pointer;
+  font-weight: 700;
+  transition: ease-in 1s;
+}
+.btns> button> a {
+  text-decoration: inherit;
+  color: var(--red);
+}
+
+.btns>button:hover{
+  
+  box-shadow: 
+  inset 8px 8px 10px #b3b3b3,
+  inset -8px -8px 10px #ffffff;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
