@@ -19,7 +19,7 @@ function Header() {
         </div>
         </p>
         
-        <img src={Pic}></img>
+        <img src={Pic} className={styles.mainImg}></img>
       </div>
       
     </div>

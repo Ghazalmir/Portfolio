@@ -9,7 +9,7 @@ function CustomNavbar(){
   return(
     <Navbar bg="dark" variant="dark" expand="md" sticky="top">
   <Container>
-    <Navbar.Brand href="#home" className={styles.myName}>Ghazal Mir's Portfolio</Navbar.Brand>
+    <Navbar.Brand href="#" className={styles.myName}>Ghazal Mir's Portfolio</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse className={styles.Links} id="basic-navbar-nav">
       <Nav >

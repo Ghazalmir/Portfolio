@@ -34,26 +34,7 @@
 
 
 
-@media (max-width: 900px) {
-  .hello {
-    flex-direction: column;
-  }
-  .hello img {
-    order: 3;
-    height: 70%;
-    width: auto;
-    margin: auto;
-    margin-top: 20px ;
-    overflow: hidden;
-  }
-  #about{
-    order: 1;
-  }
-  .hello p{
-  
-    order: 2;
-  }
-}
+
 
 .findMeIcons {
   margin-top: 10px;
@@ -88,3 +69,24 @@
 
 }
 
+@media (max-width: 900px) {
+  .hello {
+    flex-direction: column;
+  }
+  .findMeIcons {
+    justify-content: center;
+  }
+  .hello p {
+    text-align: center;
+    margin-top: 250px;
+  }
+  .mainImg{
+    width: 50% !important;
+    height: auto !important;
+    margin: auto !important;
+    margin-bottom: 150px !important;
+
+
+  }
+  
+}
