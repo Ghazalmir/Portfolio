@@ -13,9 +13,9 @@ function CustomNavbar(){
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse className={styles.Links} id="basic-navbar-nav">
       <Nav >
-        <Nav.Link className={styles.link} href="#About">.aboutMe()</Nav.Link>
-        <Nav.Link className={styles.link} href="#skills">.skills()</Nav.Link>
-        <Nav.Link className={styles.link} href="#Projects">.projetcs()</Nav.Link>
+        <Nav.Link className={styles.link} href="#Projects">Projetcs</Nav.Link>
+        <Nav.Link className={styles.link} href="#About">About Me</Nav.Link>
+        <Nav.Link className={styles.link} href="#skills">Skills</Nav.Link>
 
         <div className={styles.linkedin}>
         <Nav.Link className={styles.link} href="https://linkedin.com/in/ghazalmir"><img src="https://img.icons8.com/ios-glyphs/480/9b9d9e/linkedin.png"/></Nav.Link>

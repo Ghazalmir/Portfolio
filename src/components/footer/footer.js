@@ -7,8 +7,10 @@ function Footer(){
     <div className={styles.footer}>
       <div className={styles.footerLinks}>
       <a className="Link"  href="#">Top&uarr;</a>
+      <a className="Link" href="#Projects">Projects</a>
         <a className="Link" href="#About">About</a>
-        <a className="Link" href="#Projects">Projects</a>
+        <a className="Link" href="#skills">Skills</a>
+
         <a className="Link" href="https://linkedin.com/in/ghazalmir">LinkedIn</a>
         <a className="Link" href="https://github.com/Ghazalmir">GitHub</a>
     </div>
