@@ -1,5 +1,11 @@
 .dividerWrapper{
   position: relative;
+  margin-top: 2px;
+  margin-bottom: -2px;
+  margin-left: -1px;
+  margin-right: -1px;
+
+
 }
 
 .divider {

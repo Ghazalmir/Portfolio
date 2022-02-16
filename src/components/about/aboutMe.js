@@ -9,7 +9,7 @@ function About(props) {
 
       <div className={styles.header}>About Me</div>
       <div className={styles.main}>
-        <p>I'm currently an undergrad student, studying Computer Science to expand on my ever-growing passion for creating new things, designing systems, and coming up with creative solutions.  <br /> <br /> So far, I have mastered OOP, web development, shell scripting, and game development as well as becoming fluent in Java, Python, C, C#, JavaScript, HTML/CSS, and a variety of other tools and languages. I’m also working towards expanding my knowledge in other fields of computer science.
+        <p>I'm currently an undergrad student, studying Computer Science to expand on my ever-growing passion for creating new things, designing systems, and coming up with creative solutions.  <br /> <br /> So far, I have mastered OOP, web development, shell scripting, and game development as well as becoming fluent in Java, Python, C, C#, JavaScript, HTML/CSS, and a variety of other tools and languages. I’m also working towards expanding my knowledge in other fields of Computer Science.
           <br /><br />Other than that, in my free time, I like to read on various topics, draw/paint, and make sculptures. Feel free to shoot me a message on LinkedIn if you want to collaborate on a project or just chat.
         
         <div className={styles.findMeIcons}>

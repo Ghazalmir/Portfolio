@@ -3,7 +3,7 @@ const ProjectsList = [
     where: 'Personal Project',
     name: 'Portfolio Website',
     date: 'Jan 2022',
-    desc: 'A personal portfolio website made with ReactJS, HTML, CSS, and JavaScript for showcasing my skills, projects, and experiences.',
+    desc: 'A personal portfolio website made with ReactJS, HTML, CSS, and JavaScript for showcasing my skills, projects, and experience.',
     tags: ['ReactJS', 'HTML/CCSS', 'JavaScript', 'Web Development'],
     buttons: [
       {
@@ -34,7 +34,7 @@ const ProjectsList = [
     buttons: [
       {
         view: 'Project Website',
-        link: 'https://cps530-final-project.netlify.app/'
+        link: 'https://cps530-final-project.netlify.app/demo'
       },
       {
         view: 'GitHub',
@@ -104,7 +104,7 @@ const ProjectsList = [
     where: 'Ryerson University',
     name: 'Caesar Cipher Bot',
     date: 'Fall 2020',
-    desc: 'A Ceaser Cipher program made with python for encryption and decryption of messages with a small tutorial on the inceryption method itself.',
+    desc: 'A Ceaser Cipher program made with Python for encryption and decryption of messages with a small tutorial on the inceryption method itself.',
     tags: ['Python', 'Functional Programming', 'Collections'],
     buttons: []
   }

@@ -22,9 +22,6 @@ function Header() {
         <img src={Pic} className={styles.mainImg}></img>
       </div>
       
-      <div className={styles.scrollDown}>
-        <span></span>
-     </div>
     </div>
   );
 }
