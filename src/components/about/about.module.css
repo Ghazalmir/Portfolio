@@ -10,7 +10,7 @@
   font-size:xx-large;
   color: var(--blue);
   margin-bottom: 5px;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .langsHeader, .toolsHeader, .findMe{

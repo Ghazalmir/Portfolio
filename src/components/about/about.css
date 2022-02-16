@@ -1,6 +1,6 @@
 #About{
   background-color: var(--bg-grey) !important;
-  color: var(--white);
+  color: var(--bg-white);
   padding-bottom: 40px;
   padding-top: 20px;
 }

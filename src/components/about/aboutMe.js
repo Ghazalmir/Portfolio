@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './about.module.css';
 import './about.css'
-import Aos from "aos";
 import { langsList, toolsList, findMeList } from "../../imgs/logos";
 function About(props) {
   return (

@@ -141,4 +141,16 @@ const findMeList = [
   }
 ];
 
-export  { langsList, toolsList, findMeList};
+const findMeListBlack = [
+  {
+    src: "https://img.icons8.com/ios-glyphs/400/212529/github.png",
+    alt: "GitHub",
+    link: "https://github.com/Ghazalmir"
+  },
+  {
+    src: "https://img.icons8.com/ios-glyphs/50/212529/linkedin.png",
+    alt: "linkedin",
+    link: "https://linkedin.com/in/ghazalmir"
+  }
+];
+export  { langsList, toolsList, findMeList, findMeListBlack};

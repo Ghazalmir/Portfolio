@@ -2,20 +2,21 @@
   position: relative;
 }
 
-.divider{
+.divider {
   position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
-.divider svg{
+
+.divider svg {
   position: relative;
   display: block;
-  width: calc(165% + 1.3px);
-  height: 110px;
+  width: calc(132% + 1.3px);
+  height: 52px;
 }
 
 .shapeFill{
