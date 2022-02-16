@@ -8,7 +8,7 @@ function Header() {
       <div className={styles.hello}>
         <p>
         <span className={styles.Ghazal}> Hi, I'm Ghazal.</span><br className={styles.break}/>
-        <span className={styles.student}>A Computer Science student from Canada.</span>
+        <span className={styles.student}>A second-year Computer Science Co-op student.</span>
         <div className={styles.findMeIcons}>
           {findMeListBlack.map(imgs =>
             <div className={styles.skill}>

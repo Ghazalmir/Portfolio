@@ -16,7 +16,7 @@ const ProjectsList = [
     where: 'Ryerson University',
     name: 'Lingo',
     date: 'Dec 2021',
-    desc: 'A C program to play a game called LINGO (much like BINGO), done as an assignment for CPS393 (Introduction to Unix, C, and C++) to demonstrate understanding of the course material. (Academic Course: CPS 393 | Grade: 100%)',
+    desc: 'A C program to play a game called LINGO (much like BINGO), done as an assignment for CPS393 (Unix, C, and C++) to demonstrate understanding of the course material. (Academic Course: CPS 393 | Grade: 100%)',
     tags: ['C', 'Memory Allocations', 'Structures', 'Linked-lists'],
     buttons: [
       {
@@ -48,7 +48,7 @@ const ProjectsList = [
     where: 'Ryerson University',
     name: 'Linux Bingo',
     date: 'Oct 2021',
-    desc: 'A bash program to play a game called LINGO (much like BINGO), done as an assignment for CPS393 (Introduction to Unix, C, and C++) to demonstrate understanding of the course material. (Academic Course: CPS 393 | Grade: 100%)',
+    desc: 'A bash program to play a game called LINGO (much like BINGO), done as an assignment for CPS393 (Unix, C, and C++) to demonstrate understanding of the course material. (Academic Course: CPS 393 | Grade: 100%)',
     tags: ['Bash', 'Unix/Linux', 'Shell Scripting'],
     buttons: [
       {
