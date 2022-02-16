@@ -13,6 +13,8 @@ function Footer(){
 
         <a className="Link" href="https://linkedin.com/in/ghazalmir">LinkedIn</a>
         <a className="Link" href="https://github.com/Ghazalmir">GitHub</a>
+        <a className="Link" href="mailto:contact@ghazalmir.com">Email</a>
+
     </div>
     <h5>&copy; {(new Date().getFullYear())} Ghazal Mir</h5>
 

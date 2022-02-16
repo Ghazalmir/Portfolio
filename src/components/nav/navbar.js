@@ -24,6 +24,11 @@ function CustomNavbar(){
         <Nav.Link className={styles.link} href="https://github.com/Ghazalmir"><img src="https://img.icons8.com/ios-glyphs/480/9b9d9e/github.png"/></Nav.Link>
         <Nav.Link className={`${styles.link} ${styles.hoverImg}`} href="https://github.com/Ghazalmir"><img src="https://img.icons8.com/ios-glyphs/480/ffffff/github.png"/></Nav.Link>
         </div>
+        <div className={styles.gmail}>
+        <Nav.Link className={styles.link} href="mailto:contact@ghazalmir.com"><img src="https://img.icons8.com/ios-glyphs/200/9b9d9e/gmail.png"/></Nav.Link>
+        <Nav.Link className={`${styles.link} ${styles.hoverImg}`} href="mailto:contact@ghazalmir.com"><img src="https://img.icons8.com/ios-glyphs/200/ffffff/gmail.png"/></Nav.Link>
+        </div>
+        
 
       </Nav>
     </Navbar.Collapse>

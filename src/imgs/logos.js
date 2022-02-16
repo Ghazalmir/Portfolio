@@ -138,6 +138,11 @@ const findMeList = [
     src: "https://img.icons8.com/ios-glyphs/50/ffffff/linkedin.png",
     alt: "linkedin",
     link: "https://linkedin.com/in/ghazalmir"
+  },
+  {
+    src: "https://img.icons8.com/ios-glyphs/200/ffffff/gmail.png",
+    alt: "Email",
+    link: "mailto:contact@ghazalmir.com"
   }
 ];
 
@@ -151,6 +156,11 @@ const findMeListBlack = [
     src: "https://img.icons8.com/ios-glyphs/50/212529/linkedin.png",
     alt: "linkedin",
     link: "https://linkedin.com/in/ghazalmir"
+  },
+  {
+    src: "https://img.icons8.com/ios-glyphs/200/212529/gmail.png",
+    alt: "Email",
+    link: "mailto:contact@ghazalmir.com"
   }
 ];
 export  { langsList, toolsList, findMeList, findMeListBlack};
