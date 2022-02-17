@@ -46,7 +46,7 @@ const langsList = [
    
   },
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/php-logo.png",
+    src: "https://img.icons8.com/ios-filled/150/ffffff/php-logo.png",
     alt: "php"
   },
   {
@@ -70,7 +70,7 @@ const langsList = [
     id: "sql"
   },
   {
-    src: "https://img.icons8.com/ios/50/ffffff/mysql-logo.png",
+    src: "https://img.icons8.com/ios/150/ffffff/mysql-logo.png",
     alt: "MySQL"
   },
 
@@ -82,11 +82,11 @@ const langsList = [
 ];
 const toolsList = [
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/linux.png" ,
+    src: "https://img.icons8.com/ios-filled/150/ffffff/linux.png" ,
     alt: "Linux"
   },
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/git.png",
+    src: "https://img.icons8.com/ios-filled/150/ffffff/git.png",
     alt: "Git"
   },
   {
@@ -98,7 +98,7 @@ const toolsList = [
     alt: "npm"
   },
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/visual-studio-logo.png",
+    src: "https://img.icons8.com/ios-filled/150/ffffff/visual-studio-logo.png",
     alt: "VScode"
   },
   {
@@ -106,7 +106,7 @@ const toolsList = [
     alt: "Vim"
   },
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/unity.png",
+    src: "https://img.icons8.com/ios-filled/150/ffffff/unity.png",
     alt: "Unity",
     id: "unity"
   },
@@ -115,7 +115,7 @@ const toolsList = [
     alt: "Figma"
   },
   {
-    src: "https://img.icons8.com/ios-filled/50/ffffff/blender-3d.png",
+    src: "https://img.icons8.com/ios-filled/150/ffffff/blender-3d.png",
     alt: "Blender"
   },
   {
@@ -135,7 +135,7 @@ const findMeList = [
     link: "https://github.com/Ghazalmir"
   },
   {
-    src: "https://img.icons8.com/ios-glyphs/50/ffffff/linkedin.png",
+    src: "https://img.icons8.com/ios-glyphs/150/ffffff/linkedin.png",
     alt: "linkedin",
     link: "https://linkedin.com/in/ghazalmir"
   },
@@ -153,7 +153,7 @@ const findMeListBlack = [
     link: "https://github.com/Ghazalmir"
   },
   {
-    src: "https://img.icons8.com/ios-glyphs/50/212529/linkedin.png",
+    src: "https://img.icons8.com/ios-glyphs/150/212529/linkedin.png",
     alt: "linkedin",
     link: "https://linkedin.com/in/ghazalmir"
   },
